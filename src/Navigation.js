@@ -6,9 +6,9 @@ function Navi() {
     const menuItems = [ 
         { key: "errorchart", displayName: "MostCommonErrors" },
         { key: "error", displayName: "CountOfOperationName"},
-        // { key: "perf", displayName: "HighPerfLatency"},
-        // { key: "serv", displayName: "HighServerLatency" },
-        // { key: "client", displayName: "ClientLatency" }   
+        { key: "perf", displayName: "HighPerfLatency"},
+        { key: "serv", displayName: "HighServerLatency" },
+        { key: "client", displayName: "ClientLatency" }   
     ];
 
     return (
